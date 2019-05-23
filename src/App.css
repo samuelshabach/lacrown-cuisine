@@ -1,0 +1,14 @@
+body {
+    color: Black;
+    margin: auto;
+}
+
+.logo {
+    height: 40px;
+    width: 90px;
+
+}
+
+.head {
+    font-size: 30px;
+}

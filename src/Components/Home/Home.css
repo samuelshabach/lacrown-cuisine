@@ -1,0 +1,26 @@
+.Home {
+    height: 700px;
+    background: url(../../assets/Images/back12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-position: center;
+    padding-top: 250px;
+    font-family: cursive;
+}
+h1 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: cursive;
+}
+#pecu{
+letter-spacing: 3px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

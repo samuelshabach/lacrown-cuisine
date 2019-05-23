@@ -1,0 +1,51 @@
+#contact {
+    height: 400px;
+    line-height: 20px;
+    background: rgb(255, 124, 2);
+    width: 100%;
+    color: white;
+    margin-top: 100px !important;
+}
+
+.em {
+    color: blue;
+    background: white;
+
+}
+
+.tw {
+    color: white;
+    background: rgb(24, 111, 243);
+
+}
+
+.ig {
+    color: white;
+    background: rgb(194, 3, 51);
+
+}
+
+.wh {
+    color: white;
+    background: rgb(18, 197, 18);
+
+}
+.circle{
+    padding: 8px;
+    border-radius: 40%;
+    max-width: 10%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+}
+
+
+.fab:hover {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}
+
+.fas:hover {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}

@@ -28,7 +28,7 @@ import Img23 from '../../assets/Designs/Img23.jpg'
 import Img24 from '../../assets/Designs/Img24.jpg'
 import Img25 from '../../assets/Designs/Img25.jpg'
 import Img26 from '../../assets/Designs/Img26.jpg'
-
+import Img from '../Img/Img'
 const Designs = () => {
     return (
         <Div>
@@ -36,94 +36,36 @@ const Designs = () => {
                 <h1 id="bg-design">Gallery</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img1} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img2} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail " src={Img3} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img4} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img5} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img6} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img7} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img8} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img9} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img10} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img11} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img12} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img13} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img20} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img14} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img15} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img16} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img17} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img18} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img19} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img21} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img23} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img24} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img25} alt="" />
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                            <img className="img-thumbnail" src={Img26} alt="" />
-                        </div>
+                        <Img img={Img1} />
+                        <Img img={Img2} />
+                        <Img img={Img3} />
+                        <Img img={Img4} />
+                        <Img img={Img5} />
+                        <Img img={Img6} />
+                        <Img img={Img7} />
+                        <Img img={Img8} />
+                        <Img img={Img9} />
+                        <Img img={Img10} />
+                        <Img img={Img11} />
+                        <Img img={Img12} />
+                        <Img img={Img13} />
+                        <Img img={Img14} />
+                        <Img img={Img15} />
+                        <Img img={Img16} />
+                        <Img img={Img17} />
+                        <Img img={Img18} />
+                        <Img img={Img19} />
+                        <Img img={Img20} />
+                        <Img img={Img21} />
+                        <Img img={Img23} />
+                        <Img img={Img24} />
+                        <Img img={Img25} />
+                        <Img img={Img26} />
                     </div>
-
                 </div>
-
             </section>
             <DisplayContact />
         </Div>
-
-
-
-
     );
-
-
 }
 export default Designs;

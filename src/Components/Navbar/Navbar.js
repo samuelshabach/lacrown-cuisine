@@ -14,31 +14,23 @@ const Navbar = () => {
         <Div>
             <section className="container">
                 <nav className="pl-5 pr-5 navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-                    <Link className="navbar-brand" id="toggle" to="/"><img className="logo rounded-circle m-auto" src={img1} alt="logo" /></Link>
+                    <Link className="navbar-brand" id="toggle" to="/">la'crown</Link>
                     <button className="navbar-toggler" id="toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon" id="icon"></span>
                     </button>
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/"><i className="fa fa-home mr-2"></i>Home<span className="sr-only"></span></Link>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" to="#Courses" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-archive mr-2"></i>Our Courses</Link>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/Courses">Basic Program</Link>
-                                    <Link className="dropdown-item" to="/Courses">Intermediate Program</Link>
-                                    <Link className="dropdown-item" to="/Courses">Advance Program</Link>
-                                </div>
+                                <Link className="nav-link text-light" to="/">Home<span className="sr-only"></span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Designs"><i className="fas fa-image mr-2"></i>Gallery</Link>
+                                <Link className="nav-link text-light" to="/About">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/About"><i className="fas fa-question mr-2"></i>About</Link>
+                                <Link className="nav-link text-light" to="/Designs">Products</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Contact"><i className="fas fa-phone mr-2"></i>Contact</Link>
+                                <Link className="nav-link text-light" to="/Contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

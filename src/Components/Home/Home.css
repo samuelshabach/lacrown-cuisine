@@ -1,6 +1,6 @@
 .Home {
     height: 700px;
-    background: url(../../assets/Images/back12.jpg);
+    background: url(../../assets/Images/img70.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -24,3 +24,4 @@ letter-spacing: 3px;
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
